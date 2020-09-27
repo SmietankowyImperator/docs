@@ -1,29 +1,122 @@
 ---
 id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+title: Strona Panelu administracyjnego
+sidebar_label: Panel administracyjny
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+***
+## Articles
 
-## Lorem
+#### Articles
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+Po utworzeniu nowych Artykułów możemy je na stałe przypiąć do Menu aplikacji.
 
-## Mauris In Code
+1. ekran zawiera listę wszystkich artykułów
+2. `Action` pozwala usunąc wybrane artykułu z listy
+3. `add article +` pozwala utworzyć nowy artykuł:
+* `Subscriber` - Nazwa Właściciela Aplikacji
+* `Title` - Tytuł artykułu
+* `Text` - Edytor textu treści Artykułu
+* `Photo` - po wybraniu `Choose File` wybieramy 1 zdjęcie które pojawi się pomiedzy `Title` a `Text`
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nową Wiadomość
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
+***
+## Galleries
 
-```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
-```
+#### Galleries
 
-## Nulla
+Po utworzeniu nowych Galerii możemy przypiąć je na stałe do Menu Aplikacji
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+1. ekran zawiera listę wszystkich galerii
+2. `ADD GALLERY` pozwala utworzyć nową galerię:
+* `Name` - Nazwa Galerii
+* `Published at` - należy zdefiniować datę i godzinę publikacji galerii
+* Zdjęcia dodajemy i sortujemy w galeri przeciągając i upuszczając w odpowiednie miejsca
+* `Save` - zapisujemy zmiany
+3. W celu usunięcia danej galerii należy kliknąć w przycisk kosza
+4. Gelerie posortowane są po dacie publikacji
 
-## Orci
+***
+## News
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
+#### News
 
-## Phasellus
+Wiadomości pojawiają się na stronie głównej aplikacji w kolejnośći od najświeższego do najstarszego
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+1. ekran zawiera listę wszystkich Wiadomości
+2. `ADD NEWS` pozwala utworzyć nową Wiadomość:
+* `Subscriber` - Nazwa Właściciela Aplikacji
+* `Title` - Tytuł artykułu
+* `Text` - Edytor textu treści Wiadomości
+* `Photo` - po wybraniu `Choose File` wybieramy 1 zdjęcie które pojawi się pomiedzy `Title` a `Text`
+* `Published at:` - określa datę oraz godzinę publikacji Wiadomości
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nową Wiadomość
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
+
+***
+## Subscribers
+
+#### Menu entitys
+
+1. ekran zawiera listę wszystkich elementów Menu Apliakcji
+2. `Action` pozwala usunąc wybrane artykułu z listy
+3. `ADD MENU ENTITY` pozwala utworzyć nowy element Menu Aplikacji
+* `Subscriber` - Nazwa Właściciela Aplikacji
+* `Title` - Nazwa elemntu w Menu Apliakcji
+* `Content type` - Typ nowego elementu Menu
+* `Article` - Przy wyborze `Article` w  sekcji `Content type`  należy wybrać który artykuł ma zostać przypięty jako element Menu
+* `Team list` - Przy wyborze `Team list` w  sekcji `Content type`  należy wybrać który Zespół ma zostać przypięty jako element Menu
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nową Wiadomość
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
+
+#### Next matches
+
+Najbliższy mecz pojawiaja się na stronie głównej aplikacji w kolejnośći od najświeższego do najstarszego
+
+1. ekran zawiera listę wszystkich spotkań
+2. `ADD NEXT METACH` pozwala utworzyć nowe spotkanie:
+* `Subscriber` - Nazwa Właściciela Aplikacji
+* `Played at:` - Data i godzina spotkania
+* `Oponent Name` - Nazwa Przeciwnika
+* `Opponent crest` - Herb Przeciwnika
+* `Venue name` - Nazwa Stadionu gospodarza
+* `Venue address` - Adres Stadionu gospodarza
+* `Venue city` - Miasto gospodarza
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nowe spotkanie
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranego spotkania
+
+#### Partners
+
+Dostępny z menu aplikacji, wyświetla wszystkich sponsorów i partnerów Klubu.
+
+1. ekran zawiera listę wszystkich partnerów
+2. `ADD PARTNER` pozwala utworzyć nowego partnera:
+* `Subscriber` - Nazwa partnera
+* `Name` - Nazwa Partnera
+* `Logo` - Logo Partnera
+* `Homepage` - link do strony partnera
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nowego Partnera
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranego Partnera
+
+#### Subscribers
+
+1. Ekran do edycji danych Subskrybenta:
+* `Name` Nazwa klubu sportowego
+* `Crest` pozwala wgrać Herb Klubu Sportowego
+* `Email` - adres email Klubu Sportowego
+* `Phone` - numer telefonu Klubu Sportowego
+* `Longitude` - długość geograficzna adresu Klubu Sportowego
+* `Latitude` - wysokość geograficzna adresu Klubu Sportowego
+* `Address` - Adres Klubu sportowego
+* `Zipcode` - kod pocztowy adresu Klubu Sportowego
+* `City` - Misto Klubu Sportowego
+2. `PARTNERS` służy do sortowania Partnerów w żądanej kolejności
+3. `MENU ENTITYS`- służy do sortowanis elemntów menu w żądaej kolejności
+
+* `Save` - zapisujemy zmiany
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
