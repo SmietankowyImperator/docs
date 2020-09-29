@@ -5,7 +5,7 @@ sidebar_label: Panel administracyjny
 ---
 
 ***
-## Articles
+## ARTICLES
 
 #### Articles
 
@@ -22,7 +22,8 @@ Po utworzeniu nowych Artykułów możemy je na stałe przypiąć do Menu aplikac
 * `Save and add another` - zapisujemy zmiany i dodajemy nową Wiadomość
 * `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
 ***
-## Galleries
+
+## GALLERIES
 
 #### Galleries
 
@@ -38,7 +39,7 @@ Po utworzeniu nowych Galerii możemy przypiąć je na stałe do Menu Aplikacji
 4. Gelerie posortowane są po dacie publikacji
 
 ***
-## News
+## NEWS
 
 #### News
 
@@ -56,7 +57,7 @@ Wiadomości pojawiają się na stronie głównej aplikacji w kolejnośći od naj
 * `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
 
 ***
-## Subscribers
+## SUBSCRIBERS
 
 #### Menu entitys
 
@@ -95,7 +96,7 @@ Dostępny z menu aplikacji, wyświetla wszystkich sponsorów i partnerów Klubu.
 
 1. ekran zawiera listę wszystkich partnerów
 2. `ADD PARTNER` pozwala utworzyć nowego partnera:
-* `Subscriber` - Nazwa partnera
+* `Subscriber` - Nazwa właściciela Aplikacji
 * `Name` - Nazwa Partnera
 * `Logo` - Logo Partnera
 * `Homepage` - link do strony partnera
@@ -120,3 +121,93 @@ Dostępny z menu aplikacji, wyświetla wszystkich sponsorów i partnerów Klubu.
 
 * `Save` - zapisujemy zmiany
 * `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej Wiadomośći
+
+***
+## TEAMS
+
+#### Players
+
+Ekran do zarządzania zawodnikami klubu piłkarskiego
+
+1. ekran zawiera listę wszystkich zawodników
+2. `ADD PLAYER` pozwala utworzyć profil nowego zawodnika:
+* `History` - ekran śledzi wszystkie zmiany wprowadzone w profilu zawodnika
+* `Team` - Nazwa zespołu danego zawodnika 
+* `First name` - Imię
+* `Last Name` - Nazwisko
+* `Number` - Numer na koszulce
+* `Position` - Pozycja
+* `Birthplace` - 
+* `Birthdate` - data urodzenia
+* `Description` - Edytor tekstu do opisu zawodnika
+* `Photo` - Miejscu do doania zdjęcia zawodnika
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nowe spotkanie
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranego spotkania
+3. Edycja profilu zawodnika następuje po kliknięciu wybranego rekordu na ekranie listy, zawiera wszystkie pola z `ADD PLAYER` oraz dodatkowo:
+* `History` - ekran śledzi wszystkie zmiany wprowadzone w profilu pracownika
+* `Delete` - usunięcie profilu pracownika
+
+
+#### Staff
+
+Ekran do zarządzania pracownikami klubu piłkarskiego
+
+1. ekran zawiera listę wszystkich pracowników klubu
+2. `ADD STAFF` pozwala utworzyć profil nowego pracownika:
+* `Team` - Nazwa zespołu danego pracownika 
+* `First name` - Imię
+* `Last Name` - Nazwisko
+* `Role` - Stanowisko
+* `Birthplace` - 
+* `Birthdate` - data urodzenia
+* `Description` - Edytor tekstu do opisu pracownika
+* `Photo` - Miejscu do doania zdjęcia pracownika
+* `Email` - adres email pracownika
+* `Phone` - nr telefonu do pracownika
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nowe spotkanie
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranego spotkania
+3. Edycja profilu pracownika następuje po kliknięciu wybranego rekordu na ekranie listy, zawiera wszystkie pola z `ADD STAFF` oraz dodatkowo:
+* `History` - ekran śledzi wszystkie zmiany wprowadzone w profilu pracownika
+* `Delete` - usunięcie profilu pracownika
+
+#### Teams
+
+Ekran do zarządzania zespołami klubu piłkarskiego
+
+1. ekran zawiera listę wszystkich pracowników klubu
+2. `ADD TEAM` pozwala utworzyć nowy zespół klubu:
+* `Subscriber` - nazwa Właściciela Aplikacji
+* `Team list` - Grupa zespołów wg podziału obowiązującego w klubie (np. zepoły męskie i kobiece) wyświetlany w aplikacji na topie widoku Zespołów
+* `Name` - Nazwa zespołu
+* `Last Name` - Nazwisko
+* `Photo` - Miejscu do doania zdjęcia całeo zespołu
+* `Fixtures` - Terminarz wyświetli się automatycznie po dodaniu profilu łączy nas piłka lub alternatywnie wpisanie adresu zewnętrznego przekieruje nas w zdefiniowane miejsce w przeglądarce (wyświetlany w aplikacji beżpośrednio pod `Team list`)
+* `Table` - Aktualna tabela wyświetli się automatycznie po dodaniu profilu łączy nas piłka lub alternatywnie wpisanie adresu zewnętrznego przekieruje nas w zdefiniowane miejsce w przeglądarce (wyświetlany w aplikacji beżpośrednio pod `Team list`)
+* `Laczy nas pilka profile` - Link do zespołu w danych rozgrywkach na stronie łączy nas piłka (
+STRONA GŁÓWNA › ROZGRYWKI › KLASA B › PROFIL DRUŻYNY)
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nowe zespół
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranego zespołu
+3. Edycja profilu pracownika następuje po kliknięciu wybranego rekordu na ekranie listy, zawiera wszystkie pola z `ADD TEAM` oraz dodatkowo:
+* `PLAYERS` - Sortowanie kolejności zawoników danego zespołu na liście w aplikacji metodą drag 'n' drop
+* `STAFF` - Sortowanie kolejnośći wyświetlania pracownika na liście w aplikacji metodą drag 'n' drop
+* `History` - ekran śledzi wszystkie zmiany wprowadzone w profilu pracownika
+* `Delete` - usunięcie profilu pracownika
+
+#### Teams lists
+
+Ekran do zarządzania i grupowania zespołów
+
+1. ekran zawiera listę wszystkich grup zespołów klubu
+2. `ADD TEAMS LISTS` pozwala utworzyć nową grupę zespołów klubowych:
+* `Subscriber` - nazwa Właściciela Aplikacji
+* `Name` - nazwa grupy zespołów
+* `Save` - zapisujemy zmiany
+* `Save and add another` - zapisujemy zmiany i dodajemy nową grupę zespołów
+* `Save and continue editing` - zapisujemy i kontynuujemy edycję wybranej grupy zespołów
+3. Edycja grupy zespołów następuje po kliknięciu wybranego rekordu na ekranie listy, zawiera wszystkie pola z `ADD TEAM LIST` oraz dodatkowo:
+* `TEAMS` - Sortowanie kolejności danego zespołu w grupie zespołów na liście w aplikacji metodą drag 'n' drop
+* `History` - ekran śledzi wszystkie zmiany wprowadzone na grupie zespołów
+* `Delete` - usunięcie grupy zespołów
